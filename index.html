@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS230 Assignment 1</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="top">
+    <h1>Food Pyramid!</h1>
+    <button onclick="changeToAdult()">Adult</button>
+    <button onclick="changeToTeen()">Teenager</button>
+    <button onclick="changeToChild()">Child</button>
+    <h3 id="target">For Adults:</h3>
+</div>
+<br/>
+    <div class="wrapper">
+        <div class="pyramid" id="pyramid">
+            <div class="part head" onmouseenter="displayButtons()" id="head" onmouseleave="hideButtons()">
+                <button class="but" id="but1-" onclick="minusTopRow()">-</button>
+                <p class="num" id="toprow">0</p>
+                <button class="but" id="but1+" onclick="plusTopRow()">+</button>
+            </div>
+            <div class="empty part"></div>
+            <div class="part second" onmouseenter="displayButtons2()" id="second" onmouseleave="hideButtons2()">
+                <button class="but" id="but2-" onclick="minusSecondRow()">-</button>
+                <p class="num" id="secondrow">0</p>
+                <button class="but" id="but2+" onclick="plusSecondRow()">+</button>
+            </div>
+            <div class="empty2 part"></div>
+            <div class="part third" onmouseenter="displayButtons3()" id="third" onmouseleave="hideButtons3()">
+                <button class="but" id="but3-" onclick="minusThirdRow()">-</button>
+                <p class="num" id="thirdrow">0</p>
+                <button class="but" id="but3+" onclick="plusThirdRow()">+</button>
+            </div>
+            <div class="part fourth"onmouseenter="displayButtons4()" id="fourth" onmouseleave="hideButtons4()">
+                <button class="but" id="but4-" onclick="minusFourthRow()">-</button>
+                <p class="num" id="fourthrow">0</p>
+                <button class="but" id="but4+" onclick="plusFourthRow()">+</button>
+            </div>
+            <div class="part fifth" onmouseenter="displayButtons5()" id="fifth" onmouseleave="hideButtons5()">
+                <button class="but" id="but5-" onclick="minusFifthRow()">-</button>
+                <p class="num" id="fifthrow">0</p>
+                <button class="but" id="but5+" onclick="plusFifthRow()">+</button>
+            </div>
+            <div class="part sixth"onmouseenter="displayButtons6()" id="sixth" onmouseleave="hideButtons6()">
+                <button class="but" id="but6-" onclick="minusSixthRow()">-</button>
+                <p class="num" id="sixthrow">0</p>
+                <button class="but" id="but6+" onclick="plusSixthRow()">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dateTracker">
+        <h3>Record Today's Date!</h3>
+        <button onclick="dateSave()" id="dateBut">Save</button>
+        <h3 id="dateList"></h3>
+    </div>
+
+
+    <script src="./functionality.js"></script>
+</body>
+</html>

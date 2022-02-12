@@ -1,0 +1,106 @@
+.pyramid:nth-child(1){
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color: rgb(221, 68, 33);
+    align-items: center;
+}
+.head{
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+.head:hover{
+    background-color: rgb(205, 7, 0);
+}
+.part:nth-child(2){
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: white;
+    height: 10px;
+    text-align: center;
+    align-items: center;
+}
+.part:nth-child(4){
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: white;
+    height: 10px;
+    text-align: center;
+    align-items: center;
+}
+.part:nth-child(3){
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: rgb(236, 156, 7);
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+.second:hover{
+    background-color: rgb(236, 126, 7);
+}
+.part:nth-child(5){
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: rgb(223, 220, 17);
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+.third:hover{
+    background-color: rgb(223, 190, 17);
+}
+.part:nth-child(6){
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
+    background-color: rgb(70, 249, 255);
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+.fourth:hover{
+    background-color: rgb(70, 219, 255);
+}
+.part:nth-child(7){
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
+    background-color: rgb(133, 89, 31);
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+.fifth:hover{
+    background-color: rgb(133, 59, 31);
+}
+.part:nth-child(8){
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
+    background-color: rgb(81, 187, 48);
+    height: 50px;
+    text-align:center;
+    align-items: center;
+}
+
+.sixth:hover{
+    background-color: rgb(81, 130, 37);
+}
+.pyramid{
+   width: 60%;
+   margin: auto;
+}
+.top{
+    text-align: center;
+}
+.num{
+    text-align:center;  
+    display: inline-block; 
+    font-size: 15pt;
+    border-radius: 50%;
+    width: 20px;
+    margin-bottom: 0px;
+    background-color: lightgreen;
+}
+.but{
+    margin-top: 2.5%;
+    display:inline-block;
+    visibility: hidden;
+    border-radius: 50%;
+}
+.dateTracker{
+    margin-top: 50px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
